@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - The Darane Library</title>
+    <title>Dashboard - Perpustakaan Kampus</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -13,9 +13,12 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
-                <i class="fas fa-book-open me-2"></i>The Darane Library
+                <i class="fas fa-book-open me-2"></i>Perpustakaan Kampus
             </a>
             <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="/dashboard">Dashboard</a>
+                <a class="nav-link" href="/books">Daftar Buku</a>
+                <a class="nav-link" href="/my-borrowings">Peminjaman Saya</a>
                 <div class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
                         <i class="fas fa-user me-1"></i>{{ auth()->user()->name }}
@@ -55,7 +58,7 @@
                             <div class="col-md-8">
                                 <h4 class="card-title">
                                     <i class="fas fa-book-open me-2"></i>
-                                    Selamat Datang di The Darane Library Digital
+                                    Selamat Datang di Perpustakaan Digital Kampus
                                 </h4>
                                 <p class="card-text mb-0">
                                     Jelajahi koleksi buku digital kami dan nikmati kemudahan meminjam buku secara online.
