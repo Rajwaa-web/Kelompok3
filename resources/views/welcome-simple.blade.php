@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Darane Library</title>
+    <title>Perpustakaan Kampus</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
-                <i class="fas fa-book-open me-2"></i>The Darane Library
+                <i class="fas fa-book-open me-2"></i>Perpustakaan Kampus
             </a>
             <div class="navbar-nav ms-auto">
                 <div class="nav-item dropdown">
@@ -37,7 +37,7 @@
     <div class="container-fluid p-0">
         <div class="d-flex align-items-center justify-content-center text-center text-white" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=2070&auto=format&fit=crop'); background-size: cover; min-height: calc(100vh - 56px);">
             <div>
-                <h1 class="display-3 fw-bold">The Darane Library Digital</h1>
+                <h1 class="display-3 fw-bold">Perpustakaan Digital Kampus</h1>
                 <p class="lead col-lg-8 mx-auto">Temukan dunia pengetahuan di ujung jari Anda. Pinjam, baca, dan kembalikan buku dengan mudah melalui platform digital kami.</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-4">
                     @guest
